@@ -1,0 +1,56 @@
+/*  
+Theme Name: Olive Green
+Theme URI: http://www.blogohblog.com/
+Description: Olive Green is a 1 column Wordpress theme. Lightweight theme for personal use. I love to hear of my work being used :). This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 License</a>. This means you may use it for any purpose, and make any changes you like. Just leave my Bob link under your footer :)
+Version: 0.1
+Author: Bob
+Author URI: http://www.blogohblog.com/
+
+This theme was designed and built by Bob of <a href="http://www.blogohblog.com/">Blog Oh Blog</a> based on the famous <a href="http://binarybonsai.com/kubrick/">Kubrick</a>.
+*/
+
+body { font-family:Helvetica, Arial, Geneva, sans-serif; font-size:12px; background:#f8f8f3 url(images/bbg.png) repeat-x; color:#666; }
+#wrap { width:500px; margin:20px auto; padding:0; }
+a:hover { text-decoration:none; color:#666; border:none; }
+#box { background:#fff; border:8px solid #fff; width:500px; table-layout:fixed; margin:0 auto; padding:0; } 
+#top { background:#f1efe7; height:26px; line-height:26px; margin:0 auto; padding:0 5px; }
+#header { background:#a6ba1f; height:100px; line-height:26px; margin:5px auto; padding:0 5px; }
+#header h1.blogtitle { font-family:Georgia, Times, "Times New Roman", Serif; color:#fff; font-size:30px; text-transform:uppercase; margin:0; padding:20px 0 0; }
+#header h1.blogtitle a:hover { text-decoration:none; color:#fff; border:none; }
+p.description { color:#fff; font-size:12pt; margin:0; padding:0; } 
+.entry { background:#fff; line-height:19px; text-align:justify; overflow:hidden; margin:5px auto; padding:0 5px; }
+.entry h2 { font-family:Verdana, Arial, Helvetica, sans-serif;  font-size:14px;font-weight:700; } 
+.entry a:hover { text-decoration:none; color:#87990d; border:none; }
+#tophome { width:200px; float:left; text-align:left; margin:0; padding:0; }
+#tops { width:250px; float:right; text-align:right; margin:0; padding:5px 0 0; }
+#searchform { height:20px; line-height:20px; margin:0; padding:0; }
+#searchform #s { font-size:8pt; width:50px;  margin-right:2px;}
+#searchform #submit { font-size:8pt; } 
+input#s { color:#666; border:1px solid #cbcbcb; background:#fcfcfc; }
+#nav { height:26px; line-height:26px; border-bottom:1px #ccc solid; margin:0 auto; padding:0; }
+ul.nav { height:22px; line-height:22px; float:left; list-style:none; font-size:11px; font-weight:400; text-transform:uppercase; margin:0; padding:3px 0 0; }
+ul.nav li { float:left !important; list-style-type:none; margin:0; padding:0; }
+ul.nav li a,ul.nav li a:link,ul.nav li a:visited { border:1px solid #ccc; border-bottom:0; border-left:0; background:#f1efe7; color:#666; float:left; display:block;
+padding:0 10px; }
+ul.nav li a:hover,ul.nav li a:active { background:#fff; color:#666; text-decoration:underline; }
+ul.nav li.first a { border-left:1px solid #ccc; }
+ul.nav li.current_page_item a { text-decoration:underline; color:#666; background:#fff; }
+ul.nav li ul { float:left; margin:0; padding:0; }
+.navigation { display:block; text-align:center; margin-top:10px; margin-bottom:10px; }
+.alignright { float:right; } 
+.alignleft { float:left; }
+blockquote { padding-left:20px; border-left:5px solid #ddd; margin:15px 30px 0 10px; }
+blockquote cite { display:block; margin:5px 0 0; }
+.comments h3 { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; font-weight:700; padding-top:10px; }
+.bobcomment :hover { background:#f8f8f3; }
+ol.commentlist { list-style:none; margin:0 0 1px; padding:0; }
+ol.commentlist li { list-style:none; margin:0; padding:13px 13px 1px; } 
+ol.commentlist li.commenthead { list-style:none; margin:0; }
+ol.commentlist li.commenthead h2 { margin:0; }
+textarea { color:#666; width:80%; border:1px solid #cbcbcb; margin-bottom:0.6em; background:#fcfcfc; margin-top:2px; padding:3px; } 
+#footer { background:#f1efe7; height:26px; line-height:26px; clear:both; margin:0 auto; padding:0 5px; }
+a:link,a:active,a:visited { text-decoration:none; color:#666; border:none; } 
+#header h1.blogtitle a:link,#header h1.blogtitle a:active,#header h1.blogtitle a:visited { text-decoration:none; color:#fff; border:none; }
+.entry a:link,.entry a:active,.entry a:visited { text-decoration:none; color:#6c6d62; border:none; } 
+.end,.bobcomment { border-bottom:1px #eeede0 solid; }
+input#url,input#author,input#email { color:#666; width:50%; border:1px solid #cbcbcb; margin-bottom:0.6em; background:#fcfcfc; margin-top:2px; padding:3px; }
